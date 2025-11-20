@@ -8,8 +8,6 @@
 ![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Norse](https://img.shields.io/badge/SNN-Norse-purple?style=for-the-badge)
 ![License](https://img.shields.io/github/license/MadrasLe/ArenaModelTimehistory?style=for-the-badge&color=green)
-![Repo Size](https://img.shields.io/github/repo-size/MadrasLe/ArenaModelTimehistory?style=for-the-badge&color=orange)
-![Last Commit](https://img.shields.io/github/last-commit/MadrasLe/ArenaModelTimehistory?style=for-the-badge)
 
 </div>
 
