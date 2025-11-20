@@ -1,5 +1,18 @@
 # Comparative Study of Deep Learning Architectures on MNIST
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Numpy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Norse](https://img.shields.io/badge/SNN-Norse-purple?style=for-the-badge)
+![License](https://img.shields.io/github/license/MadrasLe/ArenaModelTimehistory?style=for-the-badge&color=green)
+![Repo Size](https://img.shields.io/github/repo-size/MadrasLe/ArenaModelTimehistory?style=for-the-badge&color=orange)
+![Last Commit](https://img.shields.io/github/last-commit/MadrasLe/ArenaModelTimehistory?style=for-the-badge)
+
+</div>
+
 ## Abstract
 
 This project presents a comprehensive benchmark of various Deep Learning architectures implemented in PyTorch, applied to the MNIST handwritten digit classification task. The study covers a wide spectrum of models, including classical **Convolutional Neural Networks (CNNs)**, **Residual Networks (ResNets)**, **Vision Transformers (ViTs)**, **Spiking Neural Networks (SNNs)**, and Generative models like **GANs** and **VAEs**.
@@ -62,6 +75,16 @@ To replicate these experiments, the following libraries are required:
 *   `nir` / `nirtorch`
 *   `lightgbm` (for MAPSIAM evaluation)
 *   `tqdm` (for progress tracking)
+
+## Usage
+
+To train a specific model (e.g., CNN), navigate to the folder and run:
+
+# Example: Training the Baseline CNN
+
+```bash
+python CNN/cnn_mnist.py --epochs 100 --batch_size 64
+```
 
 ## License
 
